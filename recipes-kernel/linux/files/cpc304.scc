@@ -1,0 +1,16 @@
+kconf hardware cpc304.cfg
+
+include features/intel-e1xxxx/intel-e100.scc
+include features/intel-e1xxxx/intel-e1xxxx.scc
+
+
+include features/serial/8250.scc
+include features/ericsson-3g/f5521gw.scc
+
+
+include cfg/usb-mass-storage.scc
+include cfg/boot-live.scc
+include features/power/intel.scc
+
+kconf hardware cpc304-user-config.cfg
+include cpc304-user-patches.scc

@@ -1,0 +1,8 @@
+define KMACHINE cpc304
+define KTYPE tiny
+define KARCH i386
+
+include ktypes/tiny/tiny.scc
+branch cpc304
+
+include cpc304.scc
